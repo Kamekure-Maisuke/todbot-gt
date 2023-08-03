@@ -13,6 +13,7 @@ game.connect();
 // ボット参加
 game.enter({
   name: "TOD_BOT",
+  isNpc: true,
 });
 
 // 接続時の処理
